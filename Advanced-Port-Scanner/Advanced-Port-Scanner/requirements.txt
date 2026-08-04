@@ -1,0 +1,11 @@
+# Core GUI (Tkinter ships with standard Python on most platforms;
+# on some Linux distros install it via your package manager, e.g.
+# sudo apt install python3-tk)
+
+# Optional: enables SYN (stealth) scanning. Requires root/admin privileges
+# at runtime. The app works fine without it (falls back to TCP Connect).
+scapy>=2.5.0
+
+# Optional: enables PDF report export. The app works fine without it
+# (CSV and TXT export always work).
+reportlab>=4.0.0
